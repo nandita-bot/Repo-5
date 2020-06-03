@@ -18,7 +18,7 @@ public class Logincreds {
 
     @Given("^I hit the Url$")
     public void iHitTheUrl() throws Throwable {
-        loginPage.openUrl(config.getString("login_url"));
+        loginPage.openUrl(config.getString("login_url1"));
         loginPage.getDriver().manage().window().maximize();
     }
 

@@ -1,6 +1,6 @@
 Feature: Login
 
-  Scenario Outline: verify the Login Functionality with invalid inputs
+  Scenario Outline: verify the Login Functionality with valid inputs
     Given I hit the Url
     Then I click on the login button
     And It will navigate to the another window
